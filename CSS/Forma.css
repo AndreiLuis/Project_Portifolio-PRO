@@ -1,0 +1,19 @@
+.logo{
+    /*
+    font-family: UpheavalTT-BRK-, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 100pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    */
+    
+    background: url(imagens/logo_header.png);
+}
+
+.slide{
+    background: url(imagens/slide_heade_01.png);
+}
+
+text{
+    font-family: MicrosoftTaiLe, MicrosoftTaiLe, AdobeInvisFont, MyriadPro-Regular;
+    text-align: center;
+}
