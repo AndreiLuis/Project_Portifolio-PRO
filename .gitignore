@@ -1,2 +1,9 @@
 #Iginorar pasta "bower_components"
 bower_components
+
+#Iginorar pasta "node_modules"
+node_modules
+
+#Iginorar pasta "test"
+#sem necessecidade de mapear no git
+test
