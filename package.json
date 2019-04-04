@@ -1,7 +1,6 @@
 {
   "name": "projeto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,6 +12,10 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+    "gulp": "^3.9.1",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "description": ""
 }

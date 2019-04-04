@@ -1,0 +1,42 @@
+section.sobre
+	
+	+breakpoint($tableSizeD)
+		display: block
+	h1
+		+align-items(center)
+		+justify-content(space-around)
+		+make-sm-column(10)
+		+make-sm-column-offset(1)
+
+		//display: flex
+			
+	.perfil
+			
+		//+align-items(center)
+		+justify-content(space-around)
+		+make-sm-column(10)
+		+make-sm-column-offset(2)
+		display: flex	
+		padding-right: 45%
+		.foto
+			width: 150px
+			flex: 0 0 150px
+			img
+				max-width: 100%
+		
+		.autor
+			padding-left: 10px
+			p
+				top: 70px
+				position: relative
+				margin: 0
+				padding: 0 
+	.texto
+		+make-sm-column(8)
+		+make-sm-column-offset(2)
+		+align-items(center)
+		+justify-content(space-around)	
+		//text-align: center
+		+align-items(center)
+//section.sobre .perfil
+	//margin-left: auto
